@@ -1,0 +1,11 @@
+# 忽略环境变量文件（绝对不要上传密钥！）
+.env
+
+# 忽略 Python 缓存文件（这些是自动生成的，不需要传）
+__pycache__/
+*.pyc
+*.pyo
+
+# 忽略系统文件（Mac 和 Windows 自动生成的）
+.DS_Store
+Thumbs.db
